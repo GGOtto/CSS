@@ -1,0 +1,151 @@
+/** chat.css made by G.G.Otto
+You have permission to take without permission 
+Version 1.5 **/
+
+@import url("//data.artofproblemsolving.com/blogs/css/1866398.css?a=1613693497&__v__=3091"); 
+
+/** announcement box **/
+div#contrib-widget.widget:before {
+  /* change text below to change text in announcement box */
+  content: "Contributors are added randomly from the online user list. If you do not want to be a contrib, you can remove yourself by clicking in the upper-right corner of your screen and then the \"x\" next to your username in the page you will find.";
+  font-family: Arial !important;
+  color: #8b0000;
+  background-color: #f2dede;
+  border-left: 10px solid #8b0000;
+  display: block;
+  line-height: 1.428571429;
+  padding: 10px; 
+  margin-bottom: 15px;
+  cursor: text; }
+
+div#archive-widget.widget, div#tag-widget.widget, div#user-menu-widget.block.user_menu, div#stats-widget.block.widget, div#about-owner-widget.block.widget, div#search-widget.block.widget, fieldset.blog-tags-wrapper, div.widget-title, div.aops-scroll-bar, div.blog-no-topics, img#post-new-entry-img, h1, h2, a.blog-post-comment, div.blog-loader, div#feed-tabs, div.comment, div.entry {
+  display: none !important; }
+
+div#content {
+  background-color: white; }
+div#wrapper {
+  border: 0px;
+  border-radius: 20px; 
+  background-color: white; 
+  padding: 0px; }
+body {
+  background-color: white; }
+div#side {
+  width: 100%; 
+  background-color: white; 
+  border: 0px; }
+div#main {
+  margin: -10px;
+  width: 100%; }
+
+#message {
+  width: 99.6%;
+  height: 100px;
+  border-radius: 10px; 
+  resize: none; }
+li.blog-shout.row1, li.blog-shout.row2 {
+  width: 100%; }
+
+.blog-shout-wrapper .aops-scroll-inner {
+  padding-right: 5px !important; }
+.blog-shout-wrapper .aops-scroll-content, div#blog-shout {
+  width:  100% !important; }
+fieldset.blog-shout-wrapper {
+  border: 1px solid #aaa; 
+  border-radius: 10px; }
+div.aops-scroll-inner {
+  width: 100.5% !important; }
+
+div#header {
+  border: 0px;
+  background-color: white;
+  overflow: hidden; }
+div#header h1 {
+  display: block !important; 
+  font-size: 38pt;
+  cursor: default; 
+  color: #1b365d; 
+  transition: .4s;  }
+div#header h1 {
+  text-decoration: none; }
+
+#navigation_box {
+  background-color: transparent;
+  border: 0px; 
+  position: fixed; }
+div#left_navigation_box, a#blog-subscribe.clickable, a.blog-logout {
+  display: none !important; }
+div#right_navigation_box {
+  color: transparent; }
+a.blog-info {
+  color: transparent !important;
+  padding: 5px !important;
+  transition: 0.5s;  }
+a.blog-info:hover {
+  transition: 0.5s;
+  color: black !important; } 
+
+span.aops-icon.blog-delete-shout {
+  font-size: 0px; }
+span.aops-icon.blog-delete-shout:before {
+  content: "X";
+  font-size: 11pt; 
+  font-family: AoPS;
+  color: black; }
+span.blog-num-shouts {
+  display: block; 
+  font-size: 13pt;
+  text-align: center; 
+  padding-top: 5px;  }
+
+div#shout-helper {
+  line-height: 24px; 
+  margin-bottom: 3px; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+  align-content: center; }
+span#submit {
+  background-color: #1b365d;
+  font-weight: 700;
+  height: 24px;
+  padding: 0 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  font-family: Roboto,sans-serif;
+  color: white;  }
+span#submit:hover {
+  background-color: #135b7b;
+  border-color: #135b7b; }
+
+a#post-new-entry {
+  font-size: 0px; 
+  line-height: auto; }
+a#post-new-entry::before {
+   color: white;  
+  content: "Bump Chat" !important; 
+  background-color: #1b365d;
+  font-weight: bold;
+  height: 24px;
+  padding: 0 12px;
+  padding-top: 3.5px;
+  padding-bottom: 3.5px;
+  font-size: 14px;
+  font-family: Roboto,sans-serif;
+  margin-left: 20px; }
+a#post-new-entry:hover:before {
+  background-color: #135b7b;
+  border-color: #135b7b; }
+
+/* input.cmty-submit-button.btn.btn-primary {
+  font-size: 0px;
+  width: 0px;
+  padding: 0px; }
+input.cmty-submit-button.btn.btn-primary:before {
+  content: "Bump" !important; 
+  font-size: 10px !important; }  */
